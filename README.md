@@ -7,7 +7,7 @@ This repository contains all the code I write while learning and practicing vari
 The repository is organized into folders by languages and frameworks:
 
 - **Python**: Code for learning Python.
-- **Web Development**: Code for learning web development, including HTML, CSS, and JavaScript.
+- **web_dev**: Code for learning web development, including HTML, CSS, and JavaScript.
 - **C**: Code for learning C Programming.
 
 Each folder contains all the scripts, exercises, and projects for that language or framework.
