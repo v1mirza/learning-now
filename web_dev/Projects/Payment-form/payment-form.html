@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Payment Form</h1>
+      <h2>Contact Information</h2>
+      <i> Required feild are followed by * </i>
+
+      <p>
+        Name: * <input type="text" name="Name" placeholder="Enter Your Name" required />
+        <p></p>
+
+        <p></p>
+        <fieldset>
+          <legend>Gender *</legend>
+          Male <input type="radio" name="Gender" id="Male" /> 
+          Female <input type="radio" name="Gender" id="Female" />
+          Other <input type="radio" name="Gender" id="other"
+        </fieldset>
+      </p>
+
+      <p>
+        Address:
+        <textarea
+          name="Address"
+          id="Address"
+          cols="100"
+          rows="10"
+          placeholder="Enter your Address"
+        ></textarea>
+      </p>
+      <p>
+        Email: *
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="mail@example.com"
+        />
+      </p>
+      <p>
+        Pincode: *
+        <input type="number" name="Pincide" id="Pincode" placeholder="123456" />
+      </p>
+
+      <h2>Payment Information</h2>
+
+      <p>
+        Card Type: *
+        <select name="CardType" id="CardType" d>
+          <option value="">--Select a Card type--</option>
+          <option value="Visa">Visa</option>
+          <option value="Master card">Master card</option>
+          <option value="Rupay">Rupay</option>
+        </select>
+      </p>
+
+      <p>
+        Card Number: *
+        <input
+          type="number"
+          name="Card Number"
+          id="Card Number"
+          placeholder="1111-2222-3333-4444"
+        />
+      </p>
+
+      <p>
+        Expiry Date: * <input type="date" name="Expiry Date" id="Expiry Date" />
+      </p>
+
+      <p>
+        CVV: * <input type="password" name="CVV" id="CVV" placeholder="123" />
+      </p>
+
+      <p><input type="Submit" value="Pay Now" /></p>
+
+    </form>
+  </body>
+</html>

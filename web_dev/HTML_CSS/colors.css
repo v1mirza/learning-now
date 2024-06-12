@@ -1,0 +1,36 @@
+body{
+    background-color: wheat;
+}
+/* p{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 50px;
+} */
+
+.line1{
+    color: red;
+    background-color: yellow;
+    padding: 15px;
+    margin: 15;
+}
+
+.line2{
+    color: black; 
+    background-color: white;
+    padding: 10px;
+    margin: 7px;
+}
+
+.line3{
+    background-color: black;
+    color: white;
+    padding: 15;
+    margin: 20px;
+}
+
+#line4{
+    background-color: green;
+    color: white;
+}
+
