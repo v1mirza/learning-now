@@ -25,3 +25,6 @@ console.log(newDate.getDay());
 
 
 
+
+// For more visit
+// https://www.w3schools.com/js/js_date_methods.asp
