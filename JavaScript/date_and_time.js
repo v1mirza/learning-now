@@ -1,30 +1,40 @@
-// Date
-  
-let myDate = new Date()
-console.log(myDate);
-console.log(myDate.toDateString());
-console.log(myDate.toLocaleString());
-console.log(myDate.toJSON());
+// Creating and Formatting Dates
 
-console.log(typeof myDate);
+let myDate = new Date();
+console.log(myDate);                // Current date and time
+console.log(myDate.toDateString()); // Date portion only
+console.log(myDate.toLocaleString());// Localized date and time
+console.log(myDate.toJSON());       // ISO format
 
-// to print Specific date
-let myCreatedDate = new Date(2024,0,1);
+console.log(typeof myDate);         // Checking type of the date object
+
+
+
+
+
+
+// Creating Specific Dates and Times
+// Creating specific dates and times
+let myCreatedDate = new Date(2024, 0, 1);       // January 1, 2024
 console.log(myCreatedDate.toLocaleString());
 
-// to print Specific Time
-let myCreatedDateTime = new Date(2024,0,1, 5,30);
+let myCreatedDateTime = new Date(2024, 0, 1, 5, 30); // January 1, 2024, 5:30 AM
 console.log(myCreatedDateTime.toLocaleString());
 
 
-// othr methods
-let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getMonth());
-console.log(newDate.getDay());
 
 
 
 
-// For more visit
+// Date Methods
+// Other date methods
+let newDate = new Date();
+console.log(newDate);           // Current date and time
+console.log(newDate.getMonth()); // Get month (0-11)
+console.log(newDate.getDay());  // Get day of the week (0-6)
+
+
+
+
+// For more methods, visit:
 // https://www.w3schools.com/js/js_date_methods.asp
