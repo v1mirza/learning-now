@@ -45,3 +45,6 @@ let obj2 = { 3: "c", 4: "e" };
 // Using spread operator
 let obj3 = { ...obj1, ...obj2 };
 console.log(obj3);  // { 1: "a", 2: "b", 3: "c", 4: "e" }
+
+
+// For more visit: https://www.w3schools.com/js/js_objects.asp
