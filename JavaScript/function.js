@@ -98,8 +98,8 @@ let area = calculateArea(5, 10); // The result (50) is stored in the variable 'a
 console.log(area); // Output: 50
 
 
-
-
+// For more visit:
+// https://www.geeksforgeeks.org/how-to-write-a-function-in-javascript/?ref=lbp
 
 
 
